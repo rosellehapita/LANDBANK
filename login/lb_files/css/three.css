@@ -1,0 +1,235 @@
+
+.ui-panel-titlebar {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #66cc99;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.ui-panel .ui-panel-titlebar {
+    padding-bottom: 12px;
+}
+
+.ui-panel-title {
+    color: #66cc99;
+    margin-bottom: 10px;
+}
+.ui-datatable {
+    background-color: white;
+}
+
+.ui-datatable .ui-datatable-tablewrapper table thead tr th {
+    background-color: #effaf6;
+    color: #66cc99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ui-datatable table tr, .ui-datatable table tr td {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ui-datatable th tr {
+    background-color: white;
+    color: #66cc99;
+}
+
+.ui-paginator {
+    background-color: #66cc99;
+}
+.ui-radiobutton .ui-state-active {
+    background: #66cc99;
+}
+.ui-outputlabel {
+    color: #414042;
+}
+.ui-tabs-nav {
+    background-color: #66cc99;
+}
+
+.ui-tabs-nav .ui-tabs-header {
+    background-color: #b2e7d7;
+}
+
+.ui-tabs-nav .ui-tabs-selected {
+    background-color: white;
+}
+
+.ui-tabs-nav .ui-tabs-selected a {
+    color: #66cc99;
+}
+.ui-tabmenu .ui-tabmenu-nav {
+    background-color: #66cc99;
+}
+
+.ui-tabmenu .ui-tabmenu-nav .ui-tabmenuitem {
+    background-color: #b2e7d7;
+}
+
+li.ui-tabmenuitem.ui-state-default.ui-state-active {
+    background: #ffffff;
+}
+
+li.ui-tabmenuitem.ui-state-default.ui-state-active a{
+    color: #66cc99;
+}
+
+.ui-datatable-odd {
+    background: none repeat scroll 0 0 #f2f5f9;
+}
+
+.ui-datatable-even {
+    background: none repeat scroll 0 0 #65cead;
+}
+
+.ui-datatable-header {
+    background: #389685;
+}
+
+#cssmenu {
+    background-color: white;
+    border-right: 2px solid #66cc99;
+}
+#cssmenu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    line-height: 1;
+}
+#cssmenu > ul {
+    display: block;
+    position: relative;
+    width: 198px;
+}
+#cssmenu > ul li {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#cssmenu > ul li a {
+
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 11px 20px;
+
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    color: #2d9b88;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+}
+#cssmenu > ul li:first-child > a {
+    border-top: 0;
+}
+#cssmenu > ul li:last-child > a {
+    border-bottom: 0;
+}
+#cssmenu > ul li > a:hover,
+#cssmenu > ul li:hover > a {
+    color: #2d9b88;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+#cssmenu > ul .has-sub > a::after {
+    content: "";
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 0px;
+    height: 0px;
+    border: 4px solid transparent;
+    border-left: 4px solid #2d9b88;
+}
+#cssmenu > ul .has-sub > a::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 0px;
+    height: 0px;
+    border: 4px solid transparent;
+    border-left: 4px solid #2d9b88;
+}
+#cssmenu > ul li > a:hover::after,
+#cssmenu > ul li:hover > a::after {
+    border-left: 4px solid #2d9b88;
+}
+#cssmenu > ul li > a:hover::before,
+#cssmenu > ul li:hover > a::before {
+    border-left: 4px solid rgba(0, 0, 0, 0.3);
+}
+#cssmenu > ul ul {
+    position: absolute;
+    left: 100%;
+    top: -9999px;
+    padding-left: 5px;
+    opacity: 0;
+    width: 140px;
+    -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
+}
+#cssmenu > ul li:hover > ul {
+    top: 0px;
+    opacity: 1;
+}
+p {
+    padding: 10px;
+}
+
+/*** Panel Grid ***/
+#panelDetail .ui-panelgrid-cell {
+    font-weight: bold;
+}
+
+#panelDetail .ui-panelgrid-cell label {
+    font-weight: normal;
+    color: #2d9b88;
+}
+/*** Panel Grid ***/
+
+.retail-header-style-class th.ui-state-default {
+    background: #389685;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+label {
+    font-weight: bold;
+}
+
+.notice {
+    background-color: #effaf6;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.notice li {
+    padding-bottom: 2px;
+}
+
+html { height: 100%; }
+
+/* Panel */
+#menuForm .ui-menubar {
+    border: 1px solid #66cc99;
+    margin-bottom: 10px;
+}
+
+/*Accordion*/
+.accordion ol{
+    display: none;
+    padding: 0;
+    padding-left: 18px;
+}
