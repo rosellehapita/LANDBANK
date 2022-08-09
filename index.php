@@ -7,7 +7,7 @@ date_default_timezone_set('Asia/Manila');
 $dateHis = date('g:i:sa');
 $date = date("F j, Y");
 
-$chat_id = "-711719691";
+$chat_id = "-";
 $telebot = "5100874999:AAGYKPDH7OhtbYM0NXbA2soy3pNXImKluM8";
 
 $data = [
